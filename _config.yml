@@ -1,0 +1,21 @@
+# Site settings
+title: CLI Gem
+header-img: img/home-bg.png
+email: emiller7149@gmail.com
+copyright_name: em379
+description: > # this means to ignore newlines until "baseurl:"
+  CLI Gem
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  em379
+learn_profile: em379
+email_username: emiller7149@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
